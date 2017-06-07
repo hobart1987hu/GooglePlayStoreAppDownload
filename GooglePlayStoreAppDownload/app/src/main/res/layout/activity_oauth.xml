@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_googleAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入Google账号" />
+
+
+        <EditText
+            android:id="@+id/et_googlePwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入Google账号密码" />
+
+        <Button
+            android:id="@+id/btnOAuth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="点击授权" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_downloadAppPkg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入需要下载的app包名" />
+
+    <Button
+        android:id="@+id/btnStartDownload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="开始下载" />
+
+</LinearLayout>
